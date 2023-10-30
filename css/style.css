@@ -7,9 +7,42 @@
 .start {background-color: rgb(255, 105, 0);
     width: 100%;
 box-shadow: 5px 10px 8px #888888;
-align-items: center;
-justify-content: center;
-display: flex;}
+display: flex;
+justify-content: center;}
 
 #booleanlogo {width: 200px;
 margin: 8px 0px;}
+
+
+.title {text-align: center;
+margin-top: 40px;
+margin-bottom:30px}
+
+#flex-container {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10%;
+    gap:60px; 
+    position: relative;
+    text-align: center;}
+
+.flex-item {
+    display: flex;
+    width: 270px;
+    height: 400px;
+    background-color: rgb(41, 98, 0);
+    min-width: 200px;
+    text-align: center;
+}
+
+.photos { 
+
+}
+
+.productname {
+    position: absolute;
+    background-color: white;
+    color: black;
+
+
+  }
